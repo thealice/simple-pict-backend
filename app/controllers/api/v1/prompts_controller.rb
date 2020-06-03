@@ -2,7 +2,8 @@ class Api::V1::PromptsController < ApplicationController
 
     def index
         prompts = Prompt.all
-        render json: prompts
+        # render json: prompts
+        render json: PromptSerializer.new(prompts)
     end
 
     def create
