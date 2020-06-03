@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_03_001614) do
+ActiveRecord::Schema.define(version: 2020_06_03_002832) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "prompts", force: :cascade do |t|
+    t.string "content"
+    t.bigint "theme_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["theme_id"], name: "index_prompts_on_theme_id"
+  end
 
   create_table "themes", force: :cascade do |t|
     t.string "name"
@@ -21,4 +29,5 @@ ActiveRecord::Schema.define(version: 2020_06_03_001614) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "prompts", "themes"
 end
