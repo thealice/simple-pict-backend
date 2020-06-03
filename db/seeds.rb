@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+entertainment = Theme.create(name: "Entertainment")
+food = Theme.create(name: "Food")
+idioms = Theme.create(name: "Idioms")
+places = Theme.create(name: "Places")
