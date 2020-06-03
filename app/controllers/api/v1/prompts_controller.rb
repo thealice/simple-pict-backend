@@ -10,7 +10,7 @@ class Api::V1::PromptsController < ApplicationController
         if prompt.save
             render json: prompt, status: :accepted
         else 
-            render json: {errors: prompt.errors.fullmesasges}, status: :unprocessable_entity
+            render json: {errors: prompt.errors.fullmessages}, status: :unprocessable_entity
         end
     end
 
