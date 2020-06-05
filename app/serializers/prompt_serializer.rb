@@ -1,4 +1,4 @@
 class PromptSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :content, :theme
+  attributes :content, :theme, :id
 end
