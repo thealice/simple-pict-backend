@@ -34,7 +34,7 @@ To get Simple Pictionary API running on your local machine for development and t
 
 ## Authors
 
-* **Alice Freda** - [Thealice](https://github.com/thealice)
+* Alice Freda - [Thealice](https://github.com/thealice)
 
 ## License
 
