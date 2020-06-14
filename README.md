@@ -1,4 +1,4 @@
-# Simple Pictionary Backend API
+# Simple Pictionary Backend API, Version 1
 
 This API is meant to accompany the the Simple FrontEnd code, which can be found [here](https://github.com/thealice/simple-pict-frontend)
 
