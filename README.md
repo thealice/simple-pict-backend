@@ -26,3 +26,16 @@ To get Simple Pictionary API running on your local machine for development and t
 * [Rails](https://rubyonrails.org/) - Application Framework. 
 * [Bundler](https://bundler.io/) - Dependency Management
 * [PostgreSQL](https://www.postgresql.org/) - Database
+
+## Contributing
+
+* Please read and follow our [Code of Conduct](CODE-OF-CONDUCT.md).
+* Bug reports and pull requests are very welcome on GitHub at https://github.com/thealice/simple-pict-backend. 
+
+## Authors
+
+* **Alice Freda** - [Thealice](https://github.com/thealice)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
