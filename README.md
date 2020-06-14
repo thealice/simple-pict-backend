@@ -1,24 +1,28 @@
-# README
+# Simple Pictionary Backend API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This API is meant to accompany the the Simple FrontEnd code, which can be found [here](https://github.com/thealice/simple-pict-frontend)
 
-Things you may want to cover:
+If you'd like to use the API to build your own pictionary-like game, you can clone this repo. It uses a Postgres DB, so create, migrate and seed the database. 
 
-* Ruby version
+After that, prompts can be found here: [http://localhost:3000/api/v1/prompts](http://localhost:3000/api/v1/prompts)
+and game themes can be found here: [http://localhost:3000/api/v1/themes](http://localhost:3000/api/v1/themes)
 
-* System dependencies
+## Getting started
 
-* Configuration
+To get Simple Pictionary API running on your local machine for development and testing purposes, fork and clone this repo:
 
-* Database creation
+ ```
+  git clone git@github.com:thealice/simple-pict-backend.git
 
-* Database initialization
+```
+ After cloning the repo, install all the required gems with `bundler install`.
+ Then run `rake db:create`, `rake db:migrate` and `rake db:seed` (if you'd like to use my seeds, or add your own first).
 
-* How to run the test suite
+ You can run it locally with `rails s`.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Built With
 
-* Deployment instructions
-
-* ...
+* [Ruby](https://www.ruby-lang.org/en/) - Programing Language. I used Ruby Version 2.6.1
+* [Rails](https://rubyonrails.org/) - Application Framework. 
+* [Bundler](https://bundler.io/) - Dependency Management
+* [PostgreSQL](https://www.postgresql.org/) - Database
